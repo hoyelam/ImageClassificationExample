@@ -14,6 +14,10 @@
 		17472CD028D255950021B0A9 /* ImageClassificationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472CCF28D255950021B0A9 /* ImageClassificationExampleTests.swift */; };
 		17472CDA28D255950021B0A9 /* ImageClassificationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472CD928D255950021B0A9 /* ImageClassificationExampleUITests.swift */; };
 		17472CDC28D255950021B0A9 /* ImageClassificationExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472CDB28D255950021B0A9 /* ImageClassificationExampleUITestsLaunchTests.swift */; };
+		17472CE928D255A40021B0A9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472CE828D255A40021B0A9 /* ImagePicker.swift */; };
+		17472CEB28D255E70021B0A9 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472CEA28D255E70021B0A9 /* ContentViewModel.swift */; };
+		17472CED28D25A4D0021B0A9 /* ClassificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17472CEC28D25A4D0021B0A9 /* ClassificationService.swift */; };
+		17472CEF28D25C150021B0A9 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 17472CEE28D25C150021B0A9 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		17472CD528D255950021B0A9 /* ImageClassificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageClassificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17472CD928D255950021B0A9 /* ImageClassificationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationExampleUITests.swift; sourceTree = "<group>"; };
 		17472CDB28D255950021B0A9 /* ImageClassificationExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17472CE828D255A40021B0A9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		17472CEA28D255E70021B0A9 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		17472CEC28D25A4D0021B0A9 /* ClassificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationService.swift; sourceTree = "<group>"; };
+		17472CEE28D25C150021B0A9 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				17472CBE28D255940021B0A9 /* ImageClassificationExampleApp.swift */,
+				17472CEE28D25C150021B0A9 /* MobileNetV2.mlmodel */,
+				17472CE828D255A40021B0A9 /* ImagePicker.swift */,
+				17472CEA28D255E70021B0A9 /* ContentViewModel.swift */,
 				17472CC028D255940021B0A9 /* ContentView.swift */,
+				17472CEC28D25A4D0021B0A9 /* ClassificationService.swift */,
 				17472CC228D255950021B0A9 /* Assets.xcassets */,
 				17472CC428D255950021B0A9 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17472CEF28D25C150021B0A9 /* MobileNetV2.mlmodel in Sources */,
+				17472CEB28D255E70021B0A9 /* ContentViewModel.swift in Sources */,
+				17472CE928D255A40021B0A9 /* ImagePicker.swift in Sources */,
 				17472CC128D255940021B0A9 /* ContentView.swift in Sources */,
 				17472CBF28D255940021B0A9 /* ImageClassificationExampleApp.swift in Sources */,
+				17472CED28D25A4D0021B0A9 /* ClassificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
